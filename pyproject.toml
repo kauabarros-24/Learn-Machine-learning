@@ -1,0 +1,19 @@
+[project]
+name = "ml"
+version = "0"
+description = "Default template for PDM package"
+authors = [
+    {name = "user.name: kauabarros-25", email = "user.mail: martinsbarroskaua@gmail.com"},
+]
+dependencies = ["fastapi>=0.135.1", "uvicorn>=0.41.0", "gunicorn>=25.1.0", "matplotlib>=3.10.8", "pandas>=3.0.1", "numpy>=2.4.2", "scikit-learn>=1.8.0"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "0"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
